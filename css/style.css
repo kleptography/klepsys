@@ -10,6 +10,8 @@
 .content {
   grid-row: content-start / content-end;
   background-color: #d3376b;
+  justify-content: centre;
+  align-content: space-between;
 }
 
 .project1 {
