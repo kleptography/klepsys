@@ -1,19 +1,7 @@
-body {
-    text-align: center;
-    background-color: #0b063d;
-  }
-  
-  div {
-    margin-top: 15px;
-  }
-  
-  .image-section {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .section-style {
-    margin-right: 25px;
-    margin-left: 25px;
-    background-color: white;
-  }
+body{
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+  line-heigth:1.6;
+}
