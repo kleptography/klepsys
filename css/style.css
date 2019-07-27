@@ -25,17 +25,17 @@
 .content {
   grid-column: welcome-start / welcome-end;
   grid-row: welcome;
-  background-color: #d3376b;
+  background-color: #dbdbdb;
 }
 
 .project1 {
   grid-column: project1;
   grid-row: project1;
-  background-color: #666b4b;
+  background-color: #ebebeb;
 }
 
 .project2 {
   grid-column: project2;
   grid-row: project2;
-  background-color: #6b4b68;
+  background-color: #cfcfcf;
 }
