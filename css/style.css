@@ -3,19 +3,22 @@
 @media screen and (max-width: 500px){
   .grid-container {
     display: grid;
-    grid-gap: 12px;
+    grid-gap: 3px;
     grid-template-columns: 1fr ;
-    grid-template-areas:""welcome" "project1" "project2";
+    grid-template-areas: "welcome" "project1" "project2";
+    height: 100vh;
   }
 }
 @media screen and (min-width: 501px){
   .grid-container {
     display: grid;
-    grid-gap: 12px;
+    grid-gap: 3px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas:  "welcome" "project1"
-                          ""welcome" "project2"
+    grid-template-areas:  
+      "welcome project1"
+      "welcome project2";
+    height: 100vh;
   }
 }
 
