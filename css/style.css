@@ -24,10 +24,9 @@
   background-color: #6b4b68;
 }
 
-
 .footer {
   grid-row: content-end / main-end;
   grid-column: main-start / main-end;
-  background-color: #6b6b4b;
+  background-color: #401acc;
   font-size: 10px
 }
