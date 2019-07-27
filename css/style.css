@@ -13,18 +13,20 @@
 }
 
 .project1 {
-  background-color: #666b4b;
+  grid-row: 1 / 2;
   grid-column: 2 / -1;
+  background-color: #666b4b;
 }
 
 .project2 {
-  background-color: #6b4b68;
+  grid-row: 2 / 3;
   grid-column: 2 / -1;
+  background-color: #6b4b68;
 }
 
 
 .footer {
-  background-color: #6b6b4b;
   grid-row -2 / -1;
   grid-column: 1 / -1;
+  background-color: #6b6b4b;
 }
