@@ -8,18 +8,22 @@
 }
 
 .content {
-  grid-row: 1 / -1;
+  grid-row: 1 / -2;
 }
 
 .project1 {
   background-color: #666b4b;
+  grid-column: 2 / -1;
 }
 
 .project2 {
   background-color: #6b4b68;
+  grid-column: 2 / -1;
 }
 
 
 .footer {
   background-color: #6b6b4b;
+  grid-row -2 / -1;
+  grid-column: 1 / -1;
 }
