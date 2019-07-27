@@ -9,6 +9,7 @@
 
 .content {
   grid-row: 1 / -2;
+  background-color: #d3376b;
 }
 
 .project1 {
