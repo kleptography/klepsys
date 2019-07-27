@@ -3,30 +3,30 @@
 .grid-container {
   display: grid;
   grid-gap: 3px;
-  grid-template-columns: 1fr 1fr ;
-  grid-auto-rows:  200px 200px 20px;
+  grid-template-columns: [main-start] 1fr [main-middle] 1fr [main-end];
+  grid-auto-rows:  [main-start content-start] 200px [content-middle] 200px [content-end] 20px [main-end];
 }
 
 .content {
-  grid-row: 1 / -2;
+  grid-row: content-start / content-end;
   background-color: #d3376b;
 }
 
 .project1 {
-  grid-row: 1 / 2;
-  grid-column: 2 / -1;
+  grid-row: content-start / content-middle;
+  grid-column: main-middle / main-end;
   background-color: #666b4b;
 }
 
 .project2 {
-  grid-row: 2 / 3;
-  grid-column: 2 / -1;
+  grid-row: content-middle / content-end;
+  grid-column: main-middle / main-end;
   background-color: #6b4b68;
 }
 
 
 .footer {
-  grid-row -2 / -1;
-  grid-column: 1 / -1;
+  grid-row content-end / main-end;
+  grid-column: main-start / main-end;
   background-color: #6b6b4b;
 }
