@@ -5,14 +5,13 @@
   grid-gap: 3px;
   grid-template-columns: [main-start] 1fr [main-middle] 1fr [main-end];
   grid-auto-rows:  [main-start] 500px [main-middle] 500px [main-end];
+  align-content: space-between;
 }
 
 .content {
   grid-column: main-start / main-middle;
   grid-row: main;
   background-color: #d3376b;
-  justify-content: centre;
-  align-content: space-between;
 }
 
 .project1 {
