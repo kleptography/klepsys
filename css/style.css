@@ -24,14 +24,14 @@ body {
   .grid-container {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr minmax(2fr, 500) minmax(2fr, 500) 1fr;
-    grid-template-rows: 1fr minmax(2fr, 500) minmax(2fr, 500) 1fr 10px;
+    grid-template-columns: 1fr minmax(100px, 500px) minmax(100px, 500px) 1fr;
+    grid-template-rows: 1fr minmax(2fr, 500px) minmax(2fr, 500px) 1fr 20px;
     grid-template-areas: 
       ". . . ." 
       ". welcome project1 ."
       ". welcome project2 ."
       ". . . ."
-      ". footer footer .";
+      "footer footer footer footer";
     height: 100vh;
   }
 }
@@ -53,7 +53,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2px 30px;
+  padding: 2px 10px;
 }
 
 .project2 {
@@ -70,10 +70,12 @@ body {
   grid-row: footer;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   font-size: 9px;
   font-weight: 100;
+  padding: 2px 30px;
+  
 }
 
 h1 {
