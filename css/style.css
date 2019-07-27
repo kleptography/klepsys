@@ -26,7 +26,8 @@
 
 
 .footer {
-  grid-row content-end / main-end;
+  grid-row: content-end / main-end;
   grid-column: main-start / main-end;
   background-color: #6b6b4b;
+  font-size: 10px
 }
