@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding 0;
+  padding: 0;
 }
 
 body {
@@ -15,7 +15,9 @@ body {
   grid-template-rows:  1fr 1fr 20px;
 }
 
-.header {}
+.content {
+  grid-row: 1 / -1;
+}
 
 .footer {
   grid-column: 1 / -1;
