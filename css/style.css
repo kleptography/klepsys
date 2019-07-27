@@ -4,31 +4,25 @@
   display: grid;
   grid-gap: 3px;
   grid-template-columns: [main-start] 1fr [main-middle] 1fr [main-end];
-  grid-auto-rows:  [main-start content-start] 200px [content-middle] 200px [content-end] 20px [main-end];
+  grid-auto-rows:  [main-start] 1fr [main-middle] 1fr [main-end];
 }
 
 .content {
-  grid-row: content-start / content-end;
+  grid-column: main-start / main-middle;
+  grid-row: main;
   background-color: #d3376b;
   justify-content: centre;
   align-content: space-between;
 }
 
 .project1 {
-  grid-row: content-start / content-middle;
   grid-column: main-middle / main-end;
+  grid-row: main-start / main-middle;
   background-color: #666b4b;
 }
 
 .project2 {
-  grid-row: content-middle / content-end;
   grid-column: main-middle / main-end;
+  grid-row: main-middle / main-end;
   background-color: #6b4b68;
-}
-
-.footer {
-  grid-row: content-end / main-end;
-  grid-column: main-start / main-end;
-  background-color: #401acc;
-  font-size: 10px
 }
