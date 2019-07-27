@@ -1,2 +1,2 @@
-# klepsys.github.io
+# klepsys.lt  
 klepsys.lt
